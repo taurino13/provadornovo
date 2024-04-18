@@ -1,0 +1,127 @@
+
+:root{
+    --color-1: #fff;
+    --color-2: #C6B3FA;
+    --color-3: #000000;
+    --color-4: #70049b;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--color-2);
+}
+
+.Home,.manu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.T1{
+    text-align: justify;
+    font-size: 100px;
+    padding: 100px;
+    color: var(--color-2);
+}
+   
+.Home {
+    background-color: var(--color-1);
+    box-shadow: 1px 1px 100px var(--color-4);
+    height: 300px;
+    justify-content: space-between;
+    border-radius: 40px;
+    margin: 1px 0 0 0;
+}
+
+.manu{
+    gap: 2cm;
+}
+
+.manu a{
+    text-decoration: none;
+    font-size: 40px;
+    color: var(--color-1);
+    transition: 1s;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
+
+.manu a{
+    background-color: var(--color-2);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.m1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+    padding: 100px 100px 100px 100px;
+}
+
+.m1{ 
+    gap: 6cm ;
+}
+
+.m2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+    padding: 100px 100px 100px 100px;
+}
+
+.m2{ 
+    gap: 6cm ;
+}
+
+.botao2 a{
+    text-decoration: none;
+    font-size: 40px;
+    color: var(--color-2);
+    transition: 1s;
+    font-weight: bold;
+}
+
+.botao2 a{
+    background-color: var(--color-1);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.botao2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 100px 450px;
+}
+
+.botao2{ 
+    gap: 26cm ;
+}
+
+.botao1 a{
+    text-decoration: none;
+    font-size: 40px;
+    color: var(--color-2);
+    transition: 1s;
+    font-weight: bold;
+}
+
+.botao1 a{
+    background-color: var(--color-1);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.botao1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 400px;
+}
+
+.botao1{ 
+    gap: 23cm ;
+}
